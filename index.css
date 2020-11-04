@@ -1,0 +1,98 @@
+@charset "utf-8";
+html{
+    background: rgb(216, 211, 212);
+}
+header{
+    background: rgb(195, 228, 129);
+  }
+
+header{
+    background-color: #D9D9D9;
+    height: 100px;
+
+}
+img{
+    width: 140px;
+    height: 80px;
+    margin: 10px;
+}
+nav{
+    float: right;
+}
+
+nav a {
+    display: inline;
+    padding: 30px;
+   
+}
+#conteneur{
+    display: inline;
+}
+
+#presentation{
+    background-color: skyblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#imagepresentation{
+    width: max-content;
+    height: max-content;
+}
+.pres{
+    border: 2px solid black;
+    background-color: rgb(179, 179, 179);
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin: 40px;
+}
+#competences{
+    background-color: slateblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+.box{
+    border: 2px solid black;
+    background-color: violet;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    margin: 50px;
+}
+
+#realisations{
+    background-color: turquoise;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.real{
+    border: 2px solid black;
+    background-color: teal;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    margin: 100px;
+}
+
+#contact{
+    background-color: white;
+    height: auto;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label{
+    display: flex;
+   
+}
+
+footer{
+    background-color: sandybrown;
+}

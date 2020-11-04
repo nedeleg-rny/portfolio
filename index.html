@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css" media="screen"/>
+        <title>index portfolio nedeleg rabany</title> 
+    </head>
+    
+    <body>
+        <header >
+           <img id="logo" srcset="logoned120.png 120w, logoned240.png 240w, logoned640.png 640w"
+            sizes="(max-width:320px) 240px, (max-width:280px), 600px" 
+            src="logoned240.png" alt="logo page" >
+            <nav>
+                <ul>
+                    
+                        <a href="#presentation">Présentation</a>
+                        <a href="#competences">competences</a>
+                        <a href="#realisations">realisations</a>
+                        <a href="#contact">Contact</a>
+                        
+                </ul>
+            </nav>
+        </header>
+
+        <div id="conteneur">
+        <section id="presentation">
+            <img id="imagepresentation" srcset="laptop-1209008_120.png 120w, laptop-1209008_240.png 240w, laptop-1209008_640.png 640w"
+            sizes="(max-width:320px) 240px, (max-width:280px), 600px"
+            src="laptop-1209008_1280.png" alt="fond presentation">
+           <article class="pres"> 
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi atque nisi minima nesciunt aliquam voluptates ea nulla, aperiam cupiditate enim dicta asperiores molestiae quo expedita vel deleniti, error et delectus?
+           </article>
+        </section>
+        <section id="competences">
+            <div class="box"> box1</div>
+            <div class="box">box2</div>
+            <div class="box">box2</div>
+            <div class="box">box2</div>
+            <div class="box">box2</div>
+            <div class="box">box2</div>
+        </section>
+        <section id="realisations">
+            <div class="real"> box1</div>
+            <div class="real">box2</div>
+            <div class="real">box2</div>
+            <div class="real">box2</div>
+        </section>
+        <section id="contact">
+          
+            <form id="forumaire">
+                <fieldset>
+                <legend> Contactez moi </legend>
+                    <label for="nom">nom:</label>
+                    <input type="text" name="non" id="non" required placeholder="entrez votre nom"><br/>
+                    <label for="prenom">prenom:</label>
+                    <input type="text" name="prenom" id="prenom"required placeholder="entrez votre prenom"><br/>
+                    <label for="email">email:</label>
+                    <input type="mail" name="mail" id="mail" required placeholder="Entrez votre e-mail"><br/>
+                    <label for="message">Votre message</label>
+                    <textarea name="message" id="message" cols="60" rows="10"></textarea>
+                    <input type="submit" value="envoyer"/>
+                </fieldset> 
+            </form>  
+        </section>
+        
+    </div>  <!--fin conteneur-->
+    </body>
+    <footer>
+footer
+    </footer>
